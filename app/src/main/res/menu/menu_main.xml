@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".PhonebookActivity">
+
+    <item android:id="@+id/contacts_menu"
+        android:actionLayout="@layout/actionbar_item"
+        android:showAsAction="always|withText"/>
+</menu>

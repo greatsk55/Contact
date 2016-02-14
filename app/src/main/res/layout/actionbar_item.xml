@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invite"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/invite"
+        android:layout_marginLeft="62dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="22sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:textAlignment="4"
+        android:text="확인"
+        android:onClick="send"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
